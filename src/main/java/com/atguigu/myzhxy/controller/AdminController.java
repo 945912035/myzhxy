@@ -43,7 +43,7 @@ public class AdminController {
         adminService.removeBatchByIds(list);
         return Result.ok();
     }
-
+  //
     @PostMapping("/saveOrUpdateAdmin")
     public Result saveOrUpdateAdmin(
             @RequestBody Admin admin
